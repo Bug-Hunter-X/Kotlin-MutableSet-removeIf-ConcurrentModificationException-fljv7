@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Kotlin when using the `removeIf` function on a `MutableSet`.  The `removeIf` function iterates over the set, and if the set is modified during iteration (e.g., by removing elements), it throws a `ConcurrentModificationException`. The solution shows how to avoid this exception using an iterator.
